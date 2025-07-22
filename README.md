@@ -16,7 +16,7 @@ python train.py \
   --eval path/to/validation.csv \
   --save path/to/save_model.pkl \
   --config path/to/config.yaml \
-  --mode training
+  --mode "train"
 ```
 
 ```text
@@ -25,7 +25,7 @@ Arguments:
 --eval      Path to the validation dataset
 --save      Path where the trained model will be saved (in .pkl format)
 --config    Path to the YAML config file
---mode      Must be set to "training" to trigger training
+--mode      Must be set to "train" to trigger training
 ```
 
 ---
@@ -38,12 +38,14 @@ To evaluate or test the model, run:
 python train.py \
   --test path/to/test.csv \
   --save path/to/save_model.pkl
+  --mode "eval"
 ```
 
 ```text
 Arguments:
 --test      Path to the test dataset
 --save      Path to the saved model file from training (in .pkl format)
+--mode      Must be set to "eval" to trigger evaluation
 ```
 
 ---
