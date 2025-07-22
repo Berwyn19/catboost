@@ -1,21 +1,59 @@
 # Folder Structure
-- **datasets/**: Contains `train`, `validation`, and `test` datasets in CSV format.
-- **config.yaml**: Stores model hyperparameters and specifies categorical features.
+
+- **datasets/**: Contains `train.csv`, `validation.csv`, and `test.csv` datasets in CSV format.
+- **config/config.yaml**: Stores model hyperparameters and specifies categorical features.
 - **train.py**: Handles both training and testing.
 
+---
+
 # Training
+
+To train the model, run:
+
+```bash
 python train.py \
-  --train: path to the training dataset \
-  --eval: path to the validation dataset \
-  --save: path where the trained model will be saved \
-  --config: path to the yaml file \
-  --mode: "train" for training
+  --train path/to/train.csv \
+  --eval path/to/validation.csv \
+  --save path/to/save_model.pkl \
+  --config path/to/config.yaml \
+  --mode training
+```
+
+```text
+Arguments:
+--train     Path to the training dataset
+--eval      Path to the validation dataset
+--save      Path where the trained model will be saved (in .pkl format)
+--config    Path to the YAML config file
+--mode      Must be set to "training" to trigger training
+```
+
+---
 
 # Evaluation
+
+To evaluate or test the model, run:
+
+```bash
 python train.py \
-  --test: path to the test dataset \
-  --save: path to the saved model
+  --test path/to/test.csv \
+  --save path/to/save_model.pkl
+```
+
+```text
+Arguments:
+--test      Path to the test dataset
+--save      Path to the saved model file from training (in .pkl format)
+```
+
+---
 
 # Requirements
+
+Install the required dependencies:
+
+```bash
 pip install -r requirements.txt
+```
+
 
