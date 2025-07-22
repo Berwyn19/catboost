@@ -1,0 +1,23 @@
+2025-07-11 11:32:23,286 INFO    MainThread:52340 [wandb_setup.py:_flush():80] Current SDK version is 0.21.0
+2025-07-11 11:32:23,286 INFO    MainThread:52340 [wandb_setup.py:_flush():80] Configure stats pid to 52340
+2025-07-11 11:32:23,286 INFO    MainThread:52340 [wandb_setup.py:_flush():80] Loading settings from /Users/berwyn/.config/wandb/settings
+2025-07-11 11:32:23,286 INFO    MainThread:52340 [wandb_setup.py:_flush():80] Loading settings from /Users/berwyn/Desktop/classifier/models/wandb/settings
+2025-07-11 11:32:23,286 INFO    MainThread:52340 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-07-11 11:32:23,286 INFO    MainThread:52340 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /Users/berwyn/Desktop/classifier/models/wandb/run-20250711_113223-a94kraq1/logs/debug.log
+2025-07-11 11:32:23,286 INFO    MainThread:52340 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /Users/berwyn/Desktop/classifier/models/wandb/run-20250711_113223-a94kraq1/logs/debug-internal.log
+2025-07-11 11:32:23,286 INFO    MainThread:52340 [wandb_init.py:init():830] calling init triggers
+2025-07-11 11:32:23,287 INFO    MainThread:52340 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'boosting_type': 'rf', 'max_depth': 6, 'num_leaves': 31, 'learning_rate': 0.01, 'n_estimators': 100, 'objective': 'binary', 'reg_lambda': 0.5, 'bagging_fraction': 0.8, 'bagging_freq': 1, 'feature_fraction': 0.8, '_wandb': {}}
+2025-07-11 11:32:23,287 INFO    MainThread:52340 [wandb_init.py:init():871] starting backend
+2025-07-11 11:32:24,319 INFO    MainThread:52340 [wandb_init.py:init():874] sending inform_init request
+2025-07-11 11:32:24,361 INFO    MainThread:52340 [wandb_init.py:init():882] backend started and connected
+2025-07-11 11:32:24,364 INFO    MainThread:52340 [wandb_init.py:init():953] updated telemetry
+2025-07-11 11:32:24,390 INFO    MainThread:52340 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-07-11 11:32:25,768 INFO    MainThread:52340 [wandb_init.py:init():1029] starting run threads in backend
+2025-07-11 11:32:25,811 INFO    MainThread:52340 [wandb_run.py:_console_start():2458] atexit reg
+2025-07-11 11:32:25,811 INFO    MainThread:52340 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-07-11 11:32:25,811 INFO    MainThread:52340 [wandb_run.py:_redirect():2375] Wrapping output streams.
+2025-07-11 11:32:25,811 INFO    MainThread:52340 [wandb_run.py:_redirect():2398] Redirects installed.
+2025-07-11 11:32:25,812 INFO    MainThread:52340 [wandb_init.py:init():1075] run started, returning control to user process
+2025-07-11 11:32:25,900 INFO    MainThread:52340 [wandb_run.py:_config_callback():1363] config_cb None None {'boosting_type': 'rf', 'colsample_bytree': 1.0, 'learning_rate': 0.01, 'max_depth': 6, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'num_leaves': 31, 'random_state': None, 'reg_alpha': 0.0, 'reg_lambda': 0.5, 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0, 'bagging_fraction': 0.8, 'bagging_freq': 1, 'feature_fraction': 0.8, 'objective': 'binary', 'metric': ['binary'], 'num_threads': 8, 'num_iterations': 100}
+2025-07-11 11:32:27,191 INFO    MsgRouterThr:52340 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

@@ -1,0 +1,7 @@
+cat_features: ["workclass", "education", "marital-status", "occupation", "relationship", "race", "sex", "native-country"]
+
+params:
+  iterations: 1000
+  learning_rate: 0.2
+  depth: 6
+  l2_leaf_reg: 5

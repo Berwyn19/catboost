@@ -1,0 +1,1 @@
+{"iteration":99,"_timestamp":1.752208346453674e+09,"valid_0_binary_logloss":{"min":0.34652401409879113},"recall":0.8552958727001492,"_wandb":{"runtime":1},"f1-score":0.8511542214701503,"_step":100,"accuracy":0.8552958727001492,"support":6033,"_runtime":1,"precision":0.8499265921024911}

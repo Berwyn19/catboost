@@ -1,0 +1,119 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            yo7xcvu1dqsf5c1t5w1s8o9bi7ns5wrg:
+                apple:
+                    ecpuCores: 2
+                    gpuCores: 14
+                    memoryGb: 16
+                    name: Apple M1 Pro
+                    pcpuCores: 6
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "6442450944"
+                codePath: Desktop/classifier/models/example_train.py
+                codePathLocal: example_train.py
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "492647731200"
+                email: berwyn@stanford.edu
+                executable: /Users/berwyn/Desktop/classifier/venv/bin/python
+                git:
+                    commit: bc156a711ffc8ba4739e61e7166e84eacd768778
+                    remote: https://github.com/amardins/agenticai.git
+                host: Berwyns-MacBook-Pro.local
+                memory:
+                    total: "17179869184"
+                os: macOS-14.5-arm64-arm-64bit
+                program: /Users/berwyn/Desktop/classifier/models/example_train.py
+                python: CPython 3.12.7
+                root: /Users/berwyn/Desktop/classifier/models
+                startedAt: "2025-07-11T06:41:46.218194Z"
+                writerId: yo7xcvu1dqsf5c1t5w1s8o9bi7ns5wrg
+        m:
+            - "1": valid_0_binary_logloss
+              "6":
+                - 3
+              "7":
+                - 1
+        python_version: 3.12.7
+        t:
+            "1":
+                - 5
+                - 8
+                - 53
+            "2":
+                - 5
+                - 8
+                - 53
+            "3":
+                - 7
+                - 16
+                - 25
+                - 63
+            "4": 3.12.7
+            "5": 0.21.0
+            "12": 0.21.0
+            "13": darwin-arm64
+bagging_fraction:
+    value: 0.7541612779790179
+bagging_freq:
+    value: 1
+boosting_type:
+    value: rf
+categorical_columns:
+    value:
+        - workclass
+        - education
+        - marital-status
+        - occupation
+        - relationship
+        - race
+        - sex
+        - native-country
+colsample_bytree:
+    value: 1
+feature_fraction:
+    value: 0.5338289358055613
+learning_rate:
+    value: 0.11928379940003363
+max_depth:
+    value: 11
+metric:
+    value:
+        - binary
+min_child_samples:
+    value: 20
+min_child_weight:
+    value: 0.001
+min_split_gain:
+    value: 0
+n_estimators:
+    value: 297
+num_iterations:
+    value: 297
+num_leaves:
+    value: 164
+num_threads:
+    value: 8
+objective:
+    value: binary
+project:
+    value: My_Optimized_LGBM
+random_state:
+    value: null
+reg_alpha:
+    value: 0
+reg_lambda:
+    value: 9.108186122791844
+subsample:
+    value: 1
+subsample_for_bin:
+    value: 200000
+subsample_freq:
+    value: 0
+use_wandb:
+    value: true

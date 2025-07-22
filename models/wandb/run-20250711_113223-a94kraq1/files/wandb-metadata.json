@@ -1,0 +1,37 @@
+{
+  "os":  "macOS-14.5-arm64-arm-64bit",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2025-07-11T04:32:23.282040Z",
+  "program":  "/Users/berwyn/Desktop/classifier/models/example_train.py",
+  "codePath":  "Desktop/classifier/models/example_train.py",
+  "codePathLocal":  "example_train.py",
+  "git":  {
+    "remote":  "https://github.com/amardins/agenticai.git",
+    "commit":  "bc156a711ffc8ba4739e61e7166e84eacd768778"
+  },
+  "email":  "berwyn@stanford.edu",
+  "root":  "/Users/berwyn/Desktop/classifier/models",
+  "host":  "Berwyns-MacBook-Pro.local",
+  "executable":  "/Users/berwyn/Desktop/classifier/venv/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "490480136192"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M1 Pro",
+    "ecpuCores":  2,
+    "pcpuCores":  6,
+    "gpuCores":  14,
+    "memoryGb":  16,
+    "swapTotalBytes":  "4294967296",
+    "ramTotalBytes":  "17179869184"
+  },
+  "writerId":  "x7tbmi27hywabzyo8nrmjhzkntf0byq9"
+}
